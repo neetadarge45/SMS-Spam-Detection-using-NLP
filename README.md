@@ -3,6 +3,9 @@
 ## Python code for building a SMS Text classification using Dense network, LSTM and Bi-LSTM architectures in TensorFlow2.
 
 ### Dataset Link :- https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+
+### Streamlit Link :- https://deepankarvarma-sms-spam-detection-using-nlp-app-atp0na.streamlit.app/
+<br>
 Different steps included in the project are :- <br>
     Load and explore the spam data<br>
     Prepare train test data<br>
