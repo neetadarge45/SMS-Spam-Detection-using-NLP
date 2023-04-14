@@ -42,9 +42,9 @@ def app():
         prediction = model.predict(processed_message)
         # Display the prediction
         if prediction > 0.1:
-            st.write("This message is spam with a probability of {:.2f}%.".format(prediction[0][0] * 100))
+            st.write("This message is spam ")
         else:
-            st.write("This message is ham with a probability of {:.2f}%.".format((1-prediction[0][0]) * 100))
+            st.write("This message is ham ")
             
 if __name__ == '__main__':
     app()
