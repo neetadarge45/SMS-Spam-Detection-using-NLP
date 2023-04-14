@@ -22,6 +22,18 @@ def preprocess_message(message):
 # Define the Streamlit app
 def app():
     st.title("Spam Detector")
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?cs=srgb&dl=pexels-adrien-olichon-2387793.jpg&fm=jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
     # Ask the user to input a message
     message = st.text_input("Enter a message:")
     # Preprocess the message and make a prediction
