@@ -41,7 +41,7 @@ def app():
         processed_message = preprocess_message(message)
         prediction = model.predict(processed_message)
         # Display the prediction
-        if prediction > 0.1:
+        if prediction > 0.5:
             st.write("This message is spam ")
         else:
             st.write("This message is ham ")
