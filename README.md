@@ -13,7 +13,7 @@ Different steps included in the project are :- <br>
     Compare and select a final model<br>
     Use the final trained classifier to classify the new messages<br>
     <br>
-## The accuracy of the models are as follows:-
-### 1) Dense Network
-### 2) Bi-LSTM
-### 3) LSTM
+# The accuracy of the models are as follows:-
+## 1) Dense Network
+## 2) Bi-LSTM
+## 3) LSTM
