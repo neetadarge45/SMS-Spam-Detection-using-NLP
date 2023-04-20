@@ -15,5 +15,6 @@ Different steps included in the project are :- <br>
     <br>
 ## The accuracy of the models are as follows:-
 ### 1) Dense Network
+### 2) SVM
 ### 2) Bi-LSTM
 ### 3) LSTM
