@@ -6,11 +6,11 @@
 
 ### Streamlit Link :- https://deepankarvarma-sms-spam-detection-using-nlp-app-atp0na.streamlit.app/
 Different steps included in the project are :- <br>
-    Load and explore the spam data<br>
-    Prepare train test data<br>
-    Train the spam detection model using the three approaches mentioned above<br>
-    Compare and select a final model<br>
-    Use the final trained classifier to classify the new messages<br>
+    1. Load and explore the spam data<br>
+    2. Prepare train test data<br>
+    3. Train the spam detection model using the three approaches mentioned above<br>
+    4. Compare and select a final model<br>
+    5. Use the final trained classifier to classify the new messages<br>
 
 ## The accuracy of the models are as follows:-
 ### 1) Dense Network
